@@ -2,11 +2,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>JSP - Hello World</title>
+    <title>JSP - Tienda Discos - Jonathan</title>
 </head>
 <body>
-<h1><%= "Hello World!" %></h1>
+<h1><%= "Discos Poppy" %>
+</h1>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+    <a href="lista-grupos">Lista grupos de catalago</a>
+<br/>
+    <a href="busca-disco">Busca discos por grupo</a>
+<br/>
+    <a href="tienda-discos">Compra un disco</a>
+<br/>
 </body>
 </html>
