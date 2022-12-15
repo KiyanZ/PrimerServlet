@@ -19,8 +19,9 @@ public class ServletBuscaGrupo extends HttpServlet {
         // Hello
         PrintWriter out = resp.getWriter();
         out.println("<html>" + "Formulario Para Buscar Autor" + "<body>");
-        out.println("<h3>" + write + "</h3>");
-        out.println("<h3>" + "</h3>");
+        out.println("<form method="+ "post" + "action=" + "ServletBuscaAutor>" );
+        out.println("<h3>" + write + "<input name="+ "authorName>" + "</h3>");
+        out.println("<input type=" + "submit" + "value=" + "BUSCAR>"+ "</form");
         out.println("</body></html>");
     }
 

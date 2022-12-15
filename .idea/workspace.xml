@@ -9,19 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89dad67d-41f7-46d3-a069-c0a5da83c668" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ficheroDatos" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ServletBuscaGrupo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ServletListaGruposdo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="89dad67d-41f7-46d3-a069-c0a5da83c668" name="Changes" comment="First Servlet Done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BuscaDiscos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/primerservlet/primerservlet/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/primerservlet/primerservlet/TiendaDiscos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/primerservlet/primerservlet/TiendaDiscos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/Disco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Disco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/GestorConsultas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/GestorConsultas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ServletBuscaGrupo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ServletBuscaGrupo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ServletListaGruposdo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ServletListaGruposdo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,12 +55,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/INFORMATICA/alu10467008/IdeaProjects/PrimerServlet/src/main/webapp/WEB-INF",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -123,8 +119,17 @@
       <updated>1669910702944</updated>
       <workItem from="1669910704211" duration="3020000" />
       <workItem from="1669994216842" duration="211000" />
-      <workItem from="1670946855810" duration="6619000" />
+      <workItem from="1670946855810" duration="6649000" />
+      <workItem from="1671119598572" duration="2316000" />
     </task>
+    <task id="LOCAL-00001" summary="First Servlet Done">
+      <created>1670954849576</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670954849576</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,5 +148,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="First Servlet Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Servlet Done" />
   </component>
 </project>

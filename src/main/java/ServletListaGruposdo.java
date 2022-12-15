@@ -20,6 +20,7 @@ public class ServletListaGruposdo extends HttpServlet {
         response.setContentType("text/html");
 
         PrintWriter out = response.getWriter();
+        out.println("<h3>" + "Discos Poppy" + "</h3>");
         for (int i = 0; i < authorList.length;i++){
             out.println("<li>" + authorList[i] + "</li>");
         }
